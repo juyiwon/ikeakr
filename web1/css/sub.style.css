@@ -1,0 +1,52 @@
+.inner{width:1200px; margin:0 auto;}
+#wrap{width:100%; min-width:1200px; overflow:hidden}
+/* wrap{width:100%; min-width:''; overflow:hidden} 
+   반응형에서는 사용 X */
+.title{color:#000; padding-bottom:40px;
+       font-weight:900; font-size:2rem;
+       text-align:center;}
+
+
+/*********************header****************************/
+
+/*********************section****************************/
+
+#sec1{position:relative;}
+#sec1 img{width:100%; height:750px;}
+#sec1 .text_box{position:absolute; top:25%; left:0;
+                width:100%; text-align:center;
+                z-index:9999999}
+#sec1 .tit{color:#fff; 
+           font-size:7rem; font-weight:900;
+           display:block; margin-bottom:70px;}
+#sec1 .cont{color:#fff; font-size:2rem; font-weight:300;
+            line-height:2.5rem;
+            display:block;}
+
+
+
+#sec2 {margin-top:100px;}
+#sec2 .cont{text-align:center;
+            color:#000; line-height:1.8rem;
+            padding-bottom:100px;}
+#sec2 .shop a:nth-child(2), #sec2 .shop a:nth-child(4) {top:100px;position:relative;}
+
+
+#sec3{margin-top:350px; margin-bottom:400px;
+      position:relative}
+#sec3 .cont{text-align:center; font-size:1.4rem;
+            color:#000; line-height:1.8rem;
+            padding-bottom:100px;}
+#sec3 img{float:left; width:calc((100% - 40px) / 2);
+          padding-right:40px;}
+#sec3 .rig{color:#000; width:calc((100% - 40px) / 2));
+           font-size:1.2rem; line-height:2rem;
+           padding-bottom:175px; margin-top:-5px;}
+#sec3 .res{background-color:#fdd000;
+           color:#fff; padding:10px 70px 10px 70px;
+           font-size:1.3rem; font-weight:700;
+           border-radius:2px;}
+#sec3 .res:hover{color:#000;}
+/*********************footer****************************/
+
+
