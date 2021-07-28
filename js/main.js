@@ -171,7 +171,7 @@ $(function(){
   
         
   
-    /*디자인 영역 화살표로 하나씩 넘어가기*/
+    /*디자인 영역 화살표로 하나씩 넘어가기
     $("#leftBtn").click(function(){
       $("#rolling").stop().animate({left:"+=370px"},600,function(){
         $("#rolling").prepend($("#rolling>:last-child"));
@@ -185,10 +185,11 @@ $(function(){
         $("#rolling").css("left","-370px");			
       });
     });
+    */
   
     /*이벤트 이미지 클릭시 팝업활성화*/
     
-    $("#rolling>img").click(function(){
+    $("#des>img").click(function(){
       var $img1 = $(this).attr("src");
       var $img2 = $img1.substr(-4);
       var $img3 = $img1.slice(0,-4) + "_big" + $img2;

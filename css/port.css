@@ -106,17 +106,21 @@ main>div>div:nth-of-type(3) {position:absolute; border-right:1px solid #d3d3d3; 
 #design {padding-bottom:200px; width:1300px; display:block; margin:auto; position:relative;}
 #design>div {width:1300px; display:block; margin:auto;}
 
-#design h2 {color:#4DC9FF; font-size:2rem; text-align:center; padding-top:200px; margin-bottom:50px;}
+#design h2 {color:#4DC9FF; font-size:2rem; text-align:center; padding-top:100px; margin-bottom:100px;}
 
-#bannerArea {width:790px; display:block; margin:auto;}
-#bannerArea>div {width:790px; overflow:hidden;}
+#bannerArea {max-width:1070px; display:block; margin:auto;}
+#bannerArea>div {max-width:1070px; overflow:hidden;}
 
-#rolling {position:relative; width:5270px; display:flex;}
+/* #rolling {position:relative; width:5270px; display:flex;}
 #rolling>img {width:350px; height: 200px; margin-right:50px;}
-
 #leftBtn,#rightBtn {cursor:pointer; color:#4DC9FF; font-size:5rem; z-index:1; position:absolute; top:51%;}
 #rightBtn {right:0; display:inline;}
-#leftBtn {left:0; display:inline;}
+#leftBtn {left:0; display:inline;} */
+
+#des img{width: 40%; margin-bottom: 100px;
+         display: block; }
+#des{display: flex; justify-content: space-between; flex-wrap: wrap;}
+
 
 #popup {position:fixed; z-index:10; top:0; background:rgba(0,0,0,0.8); overflow:auto; width:100%; height:100vh; left: 0 ;text-align:center; display:none;}
 #popup img {max-width:100%;}
