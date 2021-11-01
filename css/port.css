@@ -9,6 +9,7 @@ ul {list-style:none;}
 
 
 /*상단 메뉴*/
+#home img {width: 30px; height: 30px;}
 header {padding:25px 25px 15px 25px; overflow:hidden;}
 header>div {width:1300px; display:block; margin:auto;}
 header>div,header ul {display:flex;}
@@ -21,6 +22,7 @@ header li a:hover {color:#000;}
 
 
 /*메인화면*/
+main img{width: 800px; height: 500px;}
 main {width:1300px; display:block; margin:auto; height:100vh;}
 main>div {position:relative; border:1px solid #d3d3d3; margin-top:20px; padding-bottom:45px;}
 main>div>div:nth-of-type(1) {text-align:center; padding:180px 0 100px 0;}
@@ -68,7 +70,7 @@ main>div>div:nth-of-type(3) {position:absolute; border-right:1px solid #d3d3d3; 
 .line1:after {max-width:85%; background:linear-gradient(to right, #4DC9FF, #005980);}
 .line2:after {max-width:70%; background:linear-gradient(to right, #4DC9FF, #005980);}
 .line3:after {max-width:70%; background:linear-gradient(to right, #4DC9FF, #005980);}
-.line4:after {max-width:70%; background:linear-gradient(to right, #4DC9FF, #005980);}
+.line4:after {max-width:50%; background:linear-gradient(to right, #4DC9FF, #005980);}
 .line5:after {max-width:50%; background:linear-gradient(to right, #4DC9FF, #005980);}
 .line6:after {max-width:60%; background:linear-gradient(to right, #4DC9FF, #005980);}
 
@@ -93,15 +95,29 @@ main>div>div:nth-of-type(3) {position:absolute; border-right:1px solid #d3d3d3; 
 
 #portfolio1 img {width:250px; height:400px;}
 #portfolio2 img {width:400px; height:400px;}
+#portfolio3 img {width:450px; height:250px;}
+#portfolio1,#portfolio3 {opacity:0; margin-left:-350px; max-width:100%;}
+#portfolio2,#portfolio4 {opacity:0; margin-left:350px; max-width:100%;}
+
+#portfolio1,#portfolio2,#portfolio3,#portfolio4 {padding:50px 0 150px 0; margin-bottom:100px;}
+#portfolio4 h1 {letter-spacing:1px;}
+
+
+/** #portfolio1 img {width:250px; height:400px;}
+#portfolio2 img {width:400px; height:400px;}
+#portfolio3 img {width:250px; height:400px;}
 #portfolio1 {opacity:0; margin-left:-350px; max-width:100%;}
 #portfolio2 {opacity:0; margin-left:350px; max-width:100%;}
+#portfolio3 {opacity:0; margin-left:-350px; max-width:100%;}
 
-#portfolio1,#portfolio2 {padding:50px 0 150px 0; margin-bottom:100px;}
-#portfolio4 h1 {letter-spacing:1px;}
+
+#portfolio1,#portfolio2,#portfolio3 {padding:50px 0 150px 0; margin-bottom:100px;}
+#portfolio4 h1 {letter-spacing:1px;} **/
 
 .button1>a,.button2>a,.button3>a,.button4>a {border:1px solid #787878; padding:4.1px 23px; border-radius:58px; color:#787878; margin:0 7px; transform:translate(-10px,-50px); font-size:1.1rem;}
 .button1>a:hover {background:#3997BF; color:white; border:1px solid #3997BF;}
 .button2>a:hover {background:#3997BF; color:white; border:1px solid #3997BF;}
+.button3>a:hover {background:#ea646b; color:white; border:1px solid #ea646b;}
 
 /*디자인*/
 #design {padding-bottom:200px; width:1300px; display:block; margin:auto; position:relative;}
