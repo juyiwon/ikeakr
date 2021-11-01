@@ -103,17 +103,6 @@ main>div>div:nth-of-type(3) {position:absolute; border-right:1px solid #d3d3d3; 
 #portfolio4 h1 {letter-spacing:1px;}
 
 
-/** #portfolio1 img {width:250px; height:400px;}
-#portfolio2 img {width:400px; height:400px;}
-#portfolio3 img {width:250px; height:400px;}
-#portfolio1 {opacity:0; margin-left:-350px; max-width:100%;}
-#portfolio2 {opacity:0; margin-left:350px; max-width:100%;}
-#portfolio3 {opacity:0; margin-left:-350px; max-width:100%;}
-
-
-#portfolio1,#portfolio2,#portfolio3 {padding:50px 0 150px 0; margin-bottom:100px;}
-#portfolio4 h1 {letter-spacing:1px;} **/
-
 .button1>a,.button2>a,.button3>a,.button4>a {border:1px solid #787878; padding:4.1px 23px; border-radius:58px; color:#787878; margin:0 7px; transform:translate(-10px,-50px); font-size:1.1rem;}
 .button1>a:hover {background:#3997BF; color:white; border:1px solid #3997BF;}
 .button2>a:hover {background:#3997BF; color:white; border:1px solid #3997BF;}
