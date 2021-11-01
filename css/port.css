@@ -9,11 +9,12 @@ ul {list-style:none;}
 
 
 /*상단 메뉴*/
-header {background:#4DC9FF; padding:25px; overflow:hidden;}
+header {padding:25px 25px 15px 25px; overflow:hidden;}
 header>div {width:1300px; display:block; margin:auto;}
 header>div,header ul {display:flex;}
-header>div>h1 {flex:1;}
-header h1,header a {color:white; font-weight:bold; font-size:1.3rem;}
+header img{width:40px; height:40px;}
+header h1,header a {color:#262626; font-weight:bold; font-size:1.3rem;}
+header ul{padding-left:870px;}
 header li {margin:0 12px;}
 header nav {margin-right:20px;}
 header li a:hover {color:#000;}
@@ -83,7 +84,7 @@ main>div>div:nth-of-type(3) {position:absolute; border-right:1px solid #d3d3d3; 
 .portfolio>div {width:1300px; display:block; margin:auto; margin-top:150px; display:flex;}
 .portfolio>div>div:nth-of-type(1) {margin-left:190px;}
 .portfolio>div>div:nth-of-type(2) {margin-left:135px;}
-.portfolio h2 {font-size:2rem; color:#4DC9FF; letter-spacing:0.2px;}
+.portfolio h2 {font-size:2rem; color:#787878; letter-spacing:0.2px; }
 .portfolio h1 {font-size:3rem; margin-top:15px; letter-spacing:0.2px;}
 .portfolio>div>div>div {display:flex; margin-top:80px;}
 .portfolio ul {font-size:1.1rem; line-height:230%;}
@@ -105,9 +106,7 @@ main>div>div:nth-of-type(3) {position:absolute; border-right:1px solid #d3d3d3; 
 /*디자인*/
 #design {padding-bottom:200px; width:1300px; display:block; margin:auto; position:relative;}
 #design>div {width:1300px; display:block; margin:auto;}
-
 #design h2 {color:#4DC9FF; font-size:2rem; text-align:center; padding-top:100px; margin-bottom:100px;}
-
 #bannerArea {max-width:1070px; display:block; margin:auto;}
 #bannerArea>div {max-width:1070px; overflow:hidden;}
 
